@@ -27,6 +27,7 @@ if __name__ == "__main__" and __package__ is None:
 
 import subprocess
 import sensor
+import time
 from sensor.util import Temperature
 
 class DS18B20(sensor.SensorBase):
